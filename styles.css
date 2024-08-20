@@ -1,0 +1,80 @@
+
+body {
+  background-color: black;
+  font-family:Verdana,Tahoma, sans-serif;
+  color: white;
+
+}
+a, a:visited {
+  color: white;
+  font-size: larger;
+}
+a:hover {
+  font-weight: bold;
+}
+.encabezado{
+  width:100%;
+  height: 8em;
+  border-color: white;
+  border-width: 2px;
+  border-style:solid;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  /*padding:1em;*/
+}
+
+.nav-bar{
+ 
+  align-items: center;
+}
+.datos { 
+  grid-area: datos; 
+  color: aliceblue;
+}
+.imagenlambo { 
+  grid-area: imagenlambo; 
+  color: white;
+}
+.nuevomodelo {
+  color: aliceblue;
+}
+.masautos {
+  color: aliceblue;
+}
+
+
+.detallesdeautos {
+  color: aliceblue;
+}
+
+.container {
+  display: flex;
+  align-items: flex-start; /* Alinea los elementos en la parte superior */
+  justify-content: space-between;
+}
+.txthist {
+  width: 50%;
+  padding-right: 20px;
+  font-size: 22px;
+}
+.image {
+  text-align: right; 
+}
+img {
+  max-width: 100.4%;
+  height: auto;
+}
+
+.txt1{
+  padding-bottom: 15px;
+}
+
+.txt2{
+  padding-bottom: 15px;
+}
+
+.footer{
+  text-align: left;
+
+}
